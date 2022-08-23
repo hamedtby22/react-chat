@@ -1,0 +1,26 @@
+.container{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:#f6f6f6;
+    align-items: center;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #0f9d58;
+}
+.logout{
+    background-color: #0f9d58;
+    color: #f6f6f6;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    border: 1px solid #096438;
+}
+.logout:hover{
+    background-color: #00552c;
+}

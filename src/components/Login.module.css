@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+}
+.containerCard{
+    border: 1px solid #989898;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgb(209, 209, 209);
+}
+.containerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    background-color: #219626;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 5px;
+    
+}
+.containerButton img{
+    width: 40px;
+    margin-right: 8px;
+}
+
+.containerButton:hover{
+    background-color: #15ce1e;
+    cursor: pointer;
+}
